@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입 폼</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <div class="background">
+        <div class="outer_box">
+            <div class="wrapper">
+                <div class="wrapper_head">회원가입을 위해<br> 정보를 입력해주세요.</div>
+                <div class="wrapper_email">
+                    <label for="email" id="email_label">*이메일<span id="email_error" class="error">(형식이 맞지않습니다. 다시 확인해주세요.)</span></label>
+                    <input id="email" class="email_input" type="text" autofocus>
+                </div>
+                <div class="wrapper_name">
+                    <label for="name">*이름<span id="name_error" class="error">(이름 형식을 다시 확인해주세요.)</span></label>
+                    <input id="name" class="name_input" type="text">
+                </div>
+                <div class="wrapper_password">
+                    <label for="password">*비밀번호</label>
+                    <input id="password" class="password_input" type="text">
+                </div>
+                <div class="wrapper_password_check">
+                    <label for="password_check">*비밀번호 확인<span id="pwdc_error" class="error">(비밀번호가 일치하지 않습니다.)</span></label>
+                    <input id="password_check" class="password_input" type="text">
+                </div>
+                <div class="wrapper_gender">
+                    <div class="gender_radio">
+                        <input type="radio" name="gender" value="남성">남성
+                    </div>
+                    <div class="gender_radio">
+                        <input type="radio" name="gender" value="여성">여성
+                    </div>
+                </div>
+                <div class="wrapper_agree">
+                    <input type="checkbox">이용약관 개인정보 수집 및 이용, 마케팅 활용 선택에 모두 동의합니다.
+                </div>
+                <div class="wrapper_join">
+                    <button class="join_button">가입하기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/form.js"></script>
+</body>
+</html>

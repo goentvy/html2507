@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width : 1920px;
+    height: 1080px;
+    background-color: #ffffff;
+}
+
+/* 에러 메시지 */
+.error {
+    display: none;
+}
+
+.error_check {
+    display: inline;
+}
+
+.outer_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 670px;
+    height: 960px;
+    border: 1px solid #AACDFF;
+    box-shadow: 7px 7px 39px 0px #0068FF40;
+    border-radius: 20px;
+    border: 1px;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 470px;
+    height: 818px;
+}
+
+.wrapper_head {
+    width: 466px;
+    height: 94px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 47.36px;
+    color: #0068ff;
+}
+.wrapper_email, .wrapper_name, .wrapper_password, .wrapper_password_check {
+    display: flex;
+    flex-direction: column;
+    width: 466px;
+    height: 80px;
+}
+.email_input, .name_input, .password_input {
+    width: 466px;
+    height: 56px;
+    border-width: 0px;
+    border-bottom: 1px solid gray;
+}
+.email_input:focus, .name_input:focus, .password_input:focus {
+    outline: none;
+    border-bottom: 1px solid #0068FF;
+}
+
+.wrapper_gender {
+    display: flex;
+    flex-direction: row;
+    width: 140px;
+    height: 24px;
+    justify-content: space-between;
+}
+
+.gender_radio {
+    display: flex;
+    flex-direction: row;
+    width: 55px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: center;
+}
+
+[type="radio"] {
+    appearance: none;
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 1.25em;
+    height: 1.25em;
+    margin: 0 0 2px;
+    padding: 0;
+    vertical-align: middle;
+}
+
+[type="radio"]:not :checked {
+    border-color: gray;
+}
+
+[type="radio"]:checked {
+    border: 0.4em solid tomato;
+}
+
+.wrapper_agree {
+    display: flex;
+    flex-direction: row;
+    width: 454px;
+    height: 21px;
+    font-size: 13.5px;
+    font-weight: 700;
+    line-height: 20.7px;
+    justify-content: space-between;
+}
+
+[type="checkbox"] {
+    appearance: none;
+    border: 1px solid red;
+    width: 1.25em;
+    height: 1.25em;
+    margin: 0 0 2px;
+    padding: 0;
+    vertical-align: middle;
+}
+
+[type="checkbox"]:not :checked {
+    border-color: red;
+}
+
+[type="checkbox"]:checked {
+    border: 0.4em solid tomato;
+}
+
+.wrapper_join {
+    width: 470px;
+    height: 75px;
+}
+
+.join_button {
+    width: 470px;
+    height: 75px;
+    border: 1px solid blue;
+    background-color: #ffffff;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    color: blue;
+}
+
+.join_button:hover {
+    border: 1px solid #ffffff;
+    background-color: #AACDFF;
+    color: #ffffff;
+}
+
+.join_button:focus {
+    border: 1px solid #ffffff;
+    background-color: blue;
+    color: #ffffff;
+}
