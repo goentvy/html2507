@@ -1,0 +1,54 @@
+body {
+    width: 1440px;
+    height: auto;
+    margin: 0 auto;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 271px 95px 0 95px;   
+}
+
+main > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+main > div.main_content_wrap {
+    width: 664px;
+    gap: 30px;
+}
+
+main > div.main_content_wrap > h1 {
+    margin: 0;
+    font-size: 64px;
+    color: #2B2C34;
+}
+main > div.main_content_wrap > p {
+    margin: 0;
+    color: #9A9494;
+    font-size: 20px;
+    border-left: 3px solid #2B2C34;
+    gap: 12px;
+    padding-left: 10px;
+}
+main > div.main_content_wrap > div.main_box > input,
+main > div.main_content_wrap > div.main_box > button.sub_btn {
+    border-radius: 8px;
+    font-size: 20px;
+}
+main > div.main_content_wrap > div.main_box > input {
+    padding : 21px 200px 21px 25px;
+    border-color: #C0C0C0;
+}
+main > div.main_content_wrap > div.main_box > button.sub_btn {
+    background-color: #6246EA;
+    color: #ffffff;
+    padding: 20px 23px 19px 23px;
+}
+.main_scroll {
+    margin: 210px 0 30px;
+    text-align: center;
+}

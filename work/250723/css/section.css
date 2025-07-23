@@ -1,0 +1,136 @@
+/* section category */
+.section_category {
+    background-color: #F9F9F9;
+    padding: 65px 95px;
+}
+.section_category > div.section_category_nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.section_category > div.section_category_nav > div.category_left > img,
+.section_category > div.section_category_nav > div.category_right > img {
+    vertical-align: text-bottom;
+}
+.section_category > div.section_category_nav > div.category_left > span {
+    font-size: 24px;
+    font-weight: 700;
+}
+.section_category > div.section_category_nav > div.category_right > span {
+    font-size: 20px;
+    font-weight: 700;
+}
+.section_category > div.section_card_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.section_category > div.section_card_wrap > div.category_card {
+    width: 220px;
+    height: 280px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+.section_category > div.section_card_wrap > div.category_card:hover {
+    background-color: #6246EA;
+    color: #ffffff;
+}
+.section_category > div.section_card_wrap > div.category_card > div.card_pack {
+    height: 120px;
+    padding: 65px 0 0 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.section_category > div.section_card_wrap > div.category_card > div.card_pack > img {
+    width: 50px;
+    height: 50px;
+}
+.section_category > div.section_card_wrap > div.category_card > div.card_pack > .card_name {
+    padding-top: 30px;
+}
+
+/* section_article */
+.section_article {
+    background-color: #ffffff;
+    padding: 65px 95px 0;
+}
+
+/* article nav */
+.section_article > div.nav_wrap > div.section_article_nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.section_article > div.nav_wrap > div.section_article_nav > div.article_nav_left > img,
+.section_article > div.nav_wrap > div.section_article_nav > div.article_nav_right > img {
+    vertical-align: text-bottom;
+}
+.section_article > div.nav_wrap > div.section_article_nav > div.article_nav_left > span {
+    font-size: 24px;
+    font-weight: 700;
+}
+.section_article > div.nav_wrap > div.section_article_nav > div.article_nav_right > span {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* section article wrap */
+.section_article > div.section_article_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.section_article > div.section_article_wrap > div.article_list_wrap {
+    flex: 4;
+    width: 300px;
+    height: auto;
+    border: 1px solid #F9F9F9;
+    padding: 20px;
+}
+.section_article > div.section_article_wrap > div.article_list_wrap > div.article_list {
+    display: flex;
+    flex-direction: column;
+}
+.section_article > div.section_article_wrap > div.article_list_wrap > div.article_list > img {
+    width: 260px;
+    height: 198px;
+    border-radius: 12.6px;
+}
+.section_article > div.section_article_wrap > div.article_list_wrap > div.article_list > p {
+    font-size: 20px;
+    font-weight: 700;
+}
+.section_article > div.section_article_wrap > div.article_list_wrap > div.article_list > .author {
+    display: flex;
+}
+.section_article > div.section_article_wrap > div.article_list_wrap > div.article_list > .author > img {
+    width: 57px;
+    height: 57px;
+}
+.section_article > div.section_article_wrap > div.article_list_wrap > div.article_list > .author > .author_pack {
+    height: 57px;
+    padding-left: 10px;
+}
+.section_article > div.section_article_wrap > div.article_list_wrap > div.article_list > .author > .author_pack > p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+.section_article > div.section_article_wrap > div.article_list_wrap > div.article_list > .author > .author_pack > span {
+    font-size: 14px;
+    font-weight: 500;
+}
+/* More Article Button */
+.more_article {
+    display: flex;
+    align-items: center;
+    margin: 90px 0;
+}
+.more_article_btn {
+    background-color: #6246EA;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px 23px 19px 23px;
+    margin: 0 auto;
+    border-radius: 8px;
+    width: 165px;
+    height: 64px;
+}
